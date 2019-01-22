@@ -10,3 +10,4 @@
 //console.log("Hello" + firstName);
 
 console.log("javascript linked up");
+

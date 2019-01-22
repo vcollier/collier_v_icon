@@ -144,15 +144,117 @@ body
 {
 	width: 800px;
 	height: 300px;
-	background-color: #efefef;
+	background-color: #98B7E5;
 	display: inline-block;
+}
+
+#images
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#bear
+{
+	width: 100px;
+	height: 100px;
+	margin-left: 50px;
+	margin-top: 125px;
+	display: inline-block;
+	transition-duration: $defaultDuration;
+	transition-property: transform;
+
+	@include hideTapHighlightColor();
+	@include hardwareAccel();
+	@include improveAntiAlias();
+}
+
+#bear:hover
+{
+	transform: scale(1.1) rotate(4deg);
+}
+
+#bunny
+{
+	width: 185px;
+	height: 185px;
+	margin-top: 40px;
+	display: inline-block;
+	transition-duration: $defaultDuration;
+	transition-property: transform;
+
+	@include hideTapHighlightColor();
+	@include hardwareAccel();
+	@include improveAntiAlias();
+
+}
+
+#bunny:hover
+{
+	transform: scale(1.1) rotate(4deg);
+}
+
+#cat
+{
+	width: 50px;
+	height: 50px;
+	margin-top: 50px;
+	padding-right: 30px;
+	display: inline-block;
+	transition-duration: $defaultDuration;
+	transition-property: transform;
+
+	@include hideTapHighlightColor();
+	@include hardwareAccel();
+	@include improveAntiAlias();
+}
+
+#cat:hover
+{
+	transform: scale(1.1) rotate(4deg);
+}
+
+#dog
+{
+	width: 100px;
+	height: 100px;
+	margin-top: 125px;
+	padding-left: 10px;
+	display: inline-block;
+	transition-duration: $defaultDuration;
+	transition-property: transform;
+
+	@include hideTapHighlightColor();
+	@include hardwareAccel();
+	@include improveAntiAlias();
+}
+
+#dog:hover
+{
+	transform: scale(1.1) rotate(4deg);
+}
+
+#unicorn
+{
+	width: 150px;
+	height: 150px;
+	margin-top: 75px;
+	padding-left: 20px;
+	display: inline-block;
+	transition-duration: $defaultDuration;
+	transition-property: transform;
+}
+
+#unicorn:hover
+{
+	transform: scale(1.1) rotate(4deg);
 }
 
 #contentArea2
 {
 	width: 800px;
 	height: 300px;
-	background-color: #efefef;
+	background-color: #98B7E5;
 	display: inline-block;
 }
 
@@ -160,7 +262,7 @@ body
 {
 	width: 800px;
 	height: 300px;
-	background-color: #efefef;
+	background-color: #98B7E5;
 	display: inline-block;
 }
 
