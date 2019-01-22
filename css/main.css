@@ -84,14 +84,12 @@ body
 	height: 300px;
 	margin-bottom: 50px;
 	margin-top: 50px;
-	font-family: 'Coda Caption', sans-serif;
 	font-size: 50px;
 }
 
 #welcomeImage
 {
-	width: 700px;
-	height: 400px;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -171,7 +169,7 @@ body
 
 #bear:hover
 {
-	transform: scale(1.1) rotate(4deg);
+	transform: scale(1.4) rotate(4deg);
 }
 
 #bunny
@@ -191,14 +189,14 @@ body
 
 #bunny:hover
 {
-	transform: scale(1.1) rotate(4deg);
+	transform: scale(1.4) rotate(4deg);
 }
 
 #cat
 {
-	width: 50px;
-	height: 50px;
-	margin-top: 50px;
+	width: 100px;
+	height: 100px;
+	margin-top: 120px;
 	padding-right: 30px;
 	display: inline-block;
 	transition-duration: $defaultDuration;
@@ -211,7 +209,7 @@ body
 
 #cat:hover
 {
-	transform: scale(1.1) rotate(4deg);
+	transform: scale(1.4) rotate(4deg);
 }
 
 #dog
@@ -231,7 +229,7 @@ body
 
 #dog:hover
 {
-	transform: scale(1.1) rotate(4deg);
+	transform: scale(1.4) rotate(4deg);
 }
 
 #unicorn
@@ -247,7 +245,7 @@ body
 
 #unicorn:hover
 {
-	transform: scale(1.1) rotate(4deg);
+	transform: scale(1.4) rotate(4deg);
 }
 
 #contentArea2
